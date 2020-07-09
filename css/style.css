@@ -1,0 +1,205 @@
+body,
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* background-color: #f3f3f3; */
+  color: #333;
+  font-size: 16px;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: url(https://assets.nflxext.com/ffe/siteui/vlv3/3b48f428-24ed-4692-bb04-bc7771854131/949f70fe-46af-4931-9a83-55cde04f5188/BR-pt-20200302-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+}
+.header {
+  width: 100%;
+  background: rgba(12, 12, 12, 0.562);
+}
+.header img {
+  margin-left: 40px;
+  padding: 20px 0 0;
+  width: 150px;
+}
+.btn-entrar a {
+  border: 0;
+  background-color: #e50914;
+  margin-top: -40px;
+  margin-right: 40px;
+  float: right;
+  line-height: normal;
+  padding: 7px 17px;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.entrar-text {
+  color: #fff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  margin-top: 0.5rem;
+  font-family: Helvetica, sans-serif;
+}
+.historia {
+  width: 100%;
+  height: 340px;
+  background: rgba(12, 12, 12, 0.411);
+}
+.historia h1 {
+  text-align: center;
+  /* display: block; */
+  font-size: 3em;
+  font-weight: "Netflix Sans";
+  margin-right: 800px;
+  margin: 0 155px;
+  color: #fff;
+  margin-top: 10%;
+
+  /* background: white; */
+}
+.historia h2 {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.historia h1 .historia h2 {
+  position: relative;
+  width: 100%;
+  padding: 75px 0;
+  max-width: 950px;
+  margin: 0 auto;
+  text-align: center;
+}
+input {
+  height: 70px;
+  padding: 5px;
+  width: 50%;
+  height: 65px;
+}
+button {
+  border: 0;
+  background-color: #e50914;
+  margin-top: -65px;
+  height: 65px;
+  width: 49%;
+  margin-bottom: 10px;
+  font-size: 14px;
+  float: right;
+}
+button:hover {
+  background-color: #ec1822;
+}
+span {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 28px;
+  cursor: pointer;
+}
+/* Aproveite */
+.aproveite {
+  background-color: #000;
+  height: 500px;
+  border-top: 10px solid #222;
+}
+.ap {
+  margin-top: 60px;
+  height: 50px;
+  margin-right: 5px;
+}
+.ap h1 {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.ap h2 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: normal;
+  margin-right: 10px;
+  line-height: 30px;
+}
+.ap img {
+  width: 100%;
+  margin-top: -80px;
+  margin-left: 45px;
+}
+.aps img {
+  margin: 7px 50px 5px 0px;
+  width: 380px;
+}
+.ap h1 {
+  margin-top: 50px;
+}
+.app {
+  margin-top: 70px;
+  /* background-color: yellow; */
+}
+.app img {
+  width: 400px;
+  margin-top: -10px;
+  float: right;
+}
+/* Questions */
+.perguntas button {
+  margin-top: 0px;
+  width: 800px;
+  height: 70px;
+  background-color: #303030;
+  float: left;
+  margin-left: 7.5%;
+}
+.perguntas button:nth-of-type(6) {
+  margin-bottom: 50px;
+}
+.title {
+  margin-top: -25px;
+  margin-bottom: 30px;
+  color: #fff;
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+}
+.perguntas span {
+  color: #fff;
+  float: left;
+  margin-left: 20px;
+  font-size: 28px;
+  text-transform: initial;
+}
+.perguntas-t {
+  border-top: 10px solid #222;
+  height: 800px;
+}
+.btn-h2 h2 {
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+}
+/* Footer */
+.title-footer h3 {
+  margin-bottom: 20px;
+}
+.title-footer h3 a {
+  color: #757575;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.questions li a {
+  color: #757575;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 35px;
+  /* background: tomato; */
+}
+.help {
+  margin-top: 35px;
+  /* background: tomato; */
+}
